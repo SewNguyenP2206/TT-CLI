@@ -1,0 +1,47 @@
+idle_timeout_minutes: 5
+xp_per_active_minute: 10
+growth_rate: 1.2
+full_rate_minutes: 360
+half_rate_minutes: 120
+focus_bonus: 150
+quest_bonus: 300
+realms:
+  - name: Luyện Khí
+    base_cost: 600
+    breakthrough_minutes: 0
+    art: |2
+         /\
+        /  \
+       /____\
+        /||\
+  - name: Trúc Cơ
+    base_cost: 3000
+    breakthrough_minutes: 45
+    art: |2
+          .-.
+         (o o)
+         | O \
+        /|___|\
+  - name: Kết Đan
+    base_cost: 10000
+    breakthrough_minutes: 60
+    art: |2
+          .*.
+         ( * )
+        .|___|.
+          / \
+titles:
+  - key: kien_tri_7
+    name: Kiên Trì
+    streak_days: 7
+    daily_active_minutes: 30
+  - key: ben_bi_30
+    name: Bền Bỉ
+    streak_days: 30
+    daily_active_minutes: 30
+  - key: dong_tinh_2h
+    name: Đồng Tĩnh
+    consecutive_active_minutes: 120
+  - key: be_quan_5
+    name: Tĩnh Tâm
+    weekly_focus_sessions: 5

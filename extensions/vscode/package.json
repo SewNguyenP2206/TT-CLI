@@ -1,0 +1,21 @@
+{
+  "name": "tt-heartbeat",
+  "displayName": "TT Heartbeat",
+  "description": "Private local-first activity heartbeat for TT CLI.",
+  "version": "0.1.0",
+  "publisher": "tt-dev",
+  "engines": { "vscode": "^1.90.0" },
+  "categories": ["Other"],
+  "extensionKind": ["workspace"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,6 @@
+*.db
+*.db-shm
+*.db-wal
+extensions/vscode/node_modules/
+extensions/vscode/out/
+*.vsix
